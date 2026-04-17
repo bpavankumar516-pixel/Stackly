@@ -1,0 +1,190 @@
+/* 
+   my Profile page Css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+.Profile_header {
+  background: #2f3e4d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.profile {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.Profile_footer {
+  background: #2f3e4d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Projects CSS */
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+.Project_header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+button {
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+}
+
+.Project_footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Contact */
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+.Contact_header {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #444;
+  color: white;
+  border: none;
+}
+
+.Contact_footer {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Id card  */
+.Id_header {
+  background: #1a4847;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.id-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.id-card {
+  width: 250px;
+  background: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.id-card img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+.Id_footer {
+  background: #1a4847;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

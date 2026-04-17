@@ -1,0 +1,138 @@
+/* Position1 CSS */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.main {
+  margin-left: 200px;
+  padding: 20px;
+}
+.main h2 {
+  margin-left: 30px;
+}
+
+.main img {
+  width: 100%;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+/* Position2 css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #3e162f;
+  color: white;
+  padding: 20px;
+  font-size: 22px;
+  z-index: 1000;
+}
+.sticky h3 {
+  margin-left: 40%;
+}
+.container {
+  margin-top: 10px;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.container a:hover {
+  color: #ffd700;
+}
+
+.hero {
+  padding: 20px;
+}
+
+.hero img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Position3 Css */
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+  background: #0c363f;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.content {
+  height: 800px;
+}
+
+.help {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 15px 30px;
+  background: #501069;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  margin: 100px auto;
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* common */
+h1 {
+  font-style: italic;
+  color: #02157e;
+  padding: 10px;
+  margin-left: 2%;
+}

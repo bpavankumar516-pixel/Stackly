@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+  </head>
+
+  <body>
+    <h1 align="center">
+      <span style="color: rgb(5, 159, 8)">User Registration Form</span>
+    </h1>
+    <hr />
+
+    <form>
+      <h2>Personal Information</h2>
+
+      <p>
+        <label>Full Name:</label><br />
+        <input type="text" name="fullname" required />
+      </p>
+
+      <p>
+        <label>Email:</label><br />
+        <input type="email" name="email" required />
+      </p>
+
+      <p>
+        <label>Password:</label><br />
+        <input type="password" name="password" required />
+      </p>
+
+      <p>
+        <label>Phone Number:</label><br />
+        <input type="tel" name="phone" required />
+      </p>
+
+      <p>
+        <label>Age:</label><br />
+        <input type="number" required />
+      </p>
+
+      <h2>Gender</h2>
+
+      <p>
+        <input type="radio" name="gender" required />
+        <label>Male</label>
+
+        <input type="radio" name="gender" />
+        <label>Female</label>
+
+        <input type="radio" name="gender" />
+        <label>Other</label>
+      </p>
+
+      <h2>Marital Status</h2>
+
+      <p>
+        <input type="radio" name="marital" />
+        <label>Single</label>
+
+        <input type="radio" name="marital" />
+        <label>Married</label>
+      </p>
+
+      <h2>Skills</h2>
+
+      <p>
+        <input type="checkbox" /> <label>HTML</label> <input type="checkbox" />
+        <label>CSS</label> <input type="checkbox" /> <label>JavaScript</label>
+        <input type="checkbox" /> <label>React</label>
+      </p>
+
+      <h2>Education</h2>
+
+      <p>
+        <select required>
+          <option value="">Select Education</option>
+          <option>B.Tech</option>
+          <option>M.Tech</option>
+          <option>BCA</option>
+          <option>MCA</option>
+          <option>Diploma</option>
+        </select>
+      </p>
+
+      <h2>Experience</h2>
+
+      <p>
+        <select>
+          <option>Fresher</option>
+          <option>1 Year</option>
+          <option>2 Years</option>
+          <option>3+ Years</option>
+        </select>
+      </p>
+
+      <h2>Select Your City</h2>
+
+      <p>
+        <select required>
+          <option value="">Select City</option>
+          <option>Bangalore</option>
+          <option>Hyderabad</option>
+          <option>Chennai</option>
+          <option>Mumbai</option>
+        </select>
+      </p>
+
+      <h2><span style="color: rgb(41, 6, 138)">Country</span></h2>
+
+      <p>
+        <input type="text" value="India" />
+      </p>
+
+      <h2>Address</h2>
+
+      <p>
+        <textarea rows="3" cols="30"></textarea>
+      </p>
+
+      <h2><span style="color: rgb(41, 6, 138)">Date Of Birth</span></h2>
+
+      <p>
+        <input type="date" required />
+      </p>
+
+      <h2><span style="color: rgb(41, 6, 138)">Select Time</span></h2>
+
+      <p>
+        <input type="time" required />
+      </p>
+
+      <h2>Preferred Contact Method</h2>
+
+      <p>
+        <input type="radio" name="contact" />
+        <label>Email</label>
+
+        <input type="radio" name="contact" />
+        <label>Phone</label>
+      </p>
+
+      <h2><span style="color: rgb(41, 6, 138)">Website</span></h2>
+
+      <p>
+        <input type="url" placeholder="Enter website URL" />
+      </p>
+
+      <h2>LinkedIn Profile</h2>
+
+      <p>
+        <input type="url" placeholder="Enter LinkedIn URL" />
+      </p>
+
+      <h2><span style="color: rgb(41, 6, 138)">Upload Resume</span></h2>
+
+      <p>
+        <input type="file" />
+      </p>
+
+      <h2><span style="color: rgb(41, 6, 138)">Comments</span></h2>
+
+      <p>
+        <textarea
+          rows="5"
+          cols="30"
+          placeholder="Enter your comments here..."
+          required
+        ></textarea>
+      </p>
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
